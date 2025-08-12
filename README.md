@@ -1,74 +1,55 @@
-# Electric Vehicle Distribution & Trends Dashboard
+# 🚗⚡ Electric Vehicle Distribution & Trends Dashboard
 
-![Electric Vehicle Dashboard](dashboard_screenshot.png)  
-*Interactive Tableau dashboard visualizing EV trends across the US. (Screenshot from the project visualization)*
+## Project Overview
+Comprehensive analytics dashboard analyzing electric vehicle adoption patterns, geographic distribution, and market trends across different states, manufacturers, and vehicle types. Built to provide insights into the EV market landscape and clean energy transportation adoption.
 
-[![Tableau](https://img.shields.io/badge/Tableau-Public-blue.svg)](https://public.tableau.com/app/profile/yourusername) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub stars](https://img.shields.io/github/stars/yourusername/ev-trends-dashboard.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/yourusername/ev-trends-dashboard/stargazers/)
+## Key Visualizations
+- **Geographic Distribution**: Interactive map showing total vehicle concentration by state
+- **Manufacturer Analysis**: Top 10 vehicle makers with Toyota leading at 16.4% market share
+- **Model Year Trends**: Time-series analysis showing EV adoption growth patterns with average of 475 vehicles
+- **CAFV Eligibility**: Clean Alternative Fuel Vehicle eligibility breakdown (66% not eligible, 34% eligible)
+- **Vehicle Model Distribution**: Top models including Prius Prime (48%), RAV4 Prime (23%), and Prius Plug-in (18%)
+- **BEV vs PHEV Analysis**: Battery Electric Vehicle (186 units) vs Plug-in Hybrid (5,034 units) comparison
 
-## 🚀 Project Overview
-This project showcases an in-depth analysis of Electric Vehicle (EV) distribution and trends in the United States, leveraging data on Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs). Built using **Tableau Desktop Public Edition**, the dashboard provides interactive visualizations to explore key metrics like total vehicles by state, model year trends, top manufacturers, and Clean Alternative Fuel Vehicle (CAFV) eligibility.
-
-Key highlights:
-- **Total Vehicles Analyzed**: 5,220 (2011–2024)
-- **Average Electric Range**: 26.88 km
-- **BEVs**: 186 | **PHEVs**: 5,034
-- Dominated by states like California (5,183 vehicles)
-- Top Manufacturer: Toyota (16.4% market share)
-
-This repository demonstrates my skills in **data visualization**, **exploratory data analysis (EDA)**, and **storytelling with data**—perfect for roles in data analysis, business intelligence, or data science.
-
-## 📊 Key Visualizations
-- **Geospatial Map**: Distribution of EVs by state, highlighting hotspots like California.
-- **Trend Line Chart**: Vehicle counts by model year, showing growth peaks and dips.
-- **Bar Chart**: Top 10 vehicle makers (e.g., Toyota, Chevrolet, Ford).
-- **Pie Chart**: CAFV eligibility breakdown (66% eligible, 2% unknown, 32% not eligible).
-- **Model Breakdown**: Popular models like Prius Prime (48%), RAV4 Prime (13%).
-
-Embed this dashboard in your portfolio or explore it live on [Tableau Public](https://public.tableau.com/app/profile/yourusername/viz/ElectricVehicleDistributionTrends/Dashboard).
-
-## 🔍 Insights & Analysis
-From the data:
-- **Growth Trends**: EV adoption surged post-2015, with a peak around 2020–2022, likely driven by incentives and tech advancements.
-- **Manufacturer Dominance**: Toyota leads with hybrid-focused models, while emerging players like Tesla (implied in BEVs) are gaining ground.
-- **Regional Focus**: Over 99% of vehicles are in California—indicating policy impacts like CAFV rebates.
-- **Range & Eligibility**: Low average range suggests early-model data; 66% qualify for CAFV, boosting eco-friendly adoption.
-
-These insights were derived through filtering, aggregation, and calculated fields in Tableau, revealing opportunities for policy recommendations and market forecasts.
+## Key Insights & Analysis
+- **Total Fleet**: 5,220 electric vehicles analyzed with 26.88 km average electric range
+- **Market Leader**: Toyota dominates with 16.4%, followed by Chevrolet (15.1%) and BMW (13.1%)
+- **Vehicle Type Split**: PHEVs significantly outnumber BEVs (5,034 vs 186), indicating hybrid preference
+- **CAFV Status**: Only 34% qualify for Clean Alternative Fuel Vehicle incentives
+- **Geographic Concentration**: Certain states show higher EV adoption rates on the distribution map
+- **Model Popularity**: Prius variants dominate the top models, reflecting Toyota's hybrid leadership
 
 ## 🛠 Technologies Used
-- **Tableau Desktop/Public**: For dashboard creation and interactivity.
-- **Data Sources**: Clean Alternative Fuel Vehicle (CAFV) dataset (sourced from public APIs or CSV files—see `data/` folder).
-- **Other Tools**: Excel for initial cleaning, Python (Pandas) for preprocessing (scripts in `scripts/`).
+- **Tableau Desktop Public Edition** – Dashboard design & interactivity.
+- **Mapbox** – Geospatial mapping integration.
+- **Excel/CSV** – Data source for visualization.
+- **Calculated Fields & Filters** – Data segmentation and dynamic interaction.
 
-## 📥 Installation & Setup
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/ev-trends-dashboard.git
-   ```
-2. Install Tableau Public (free) from [tableau.com](https://www.tableau.com/products/public/download).
-3. Open `ev_dashboard.twbx` in Tableau to explore/edit the dashboard.
-4. (Optional) For data preprocessing:
-   - Install Python dependencies: `pip install -r requirements.txt`
-   - Run: `python scripts/clean_data.py`
+---
 
-## ▶️ How to Use
-- **View Dashboard**: Open in Tableau or embed via Tableau Public.
-- **Interact**: Filter by state, model year, or vehicle type for custom views.
-- **Export**: Generate PDFs/images or publish to web for sharing.
-- **Extend**: Add your own data sources via Tableau's connectors (e.g., SQL, Google Sheets).
+## 📝 Project Steps
+1. **Data Acquisition** – Collected EV registration data from public sources.
+2. **Data Cleaning** – Removed duplicates and standardized formats.
+3. **Data Modeling** – Created calculated fields for BEV/PHEV categorization.
+4. **Visualization** – Designed interactive charts, maps, and KPIs.
+5. **Dashboard Integration** – Combined visuals into a cohesive, filter-enabled view.
 
-## 🤝 Contributing
-Contributions welcome! Fork the repo, create a branch, and submit a PR. Focus on:
-- Adding new datasets (e.g., global EV trends).
-- Enhancing visualizations (e.g., forecasts with Tableau Prep).
-- Bug fixes or performance optimizations.
+---
+
+## 🚀 How to Use
+1. Open the dashboard in **Tableau Public** or via the shared link.
+2. Use filters for **State**, **Model Year**, and **CAFV Eligibility** to customize insights.
+3. Hover over visuals for detailed data points.
+4. Compare trends by vehicle type, brand, and model.
+
+---
 
 ## 📬 Contact
-- LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/yourusername)
-- Email: your.email@example.com
-- Portfolio: [your-portfolio-site](https://yourusername.github.io)
+**Author:** Chaitanya  
+**Email:** your.email@example.com  
+**LinkedIn:** [Your LinkedIn Profile](https://linkedin.com)  
+
+---
 
 ## 📄 License
-This project is licensed under the MIT License—see [LICENSE](LICENSE) for details.
-
-*Built to showcase data viz expertise—let's connect if you're hiring! 🚀*
+This project is licensed under the **MIT License** – free to use, modify, and share with attribution.
