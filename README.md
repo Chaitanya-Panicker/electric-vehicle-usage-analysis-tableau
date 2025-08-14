@@ -1,5 +1,7 @@
 # 🚗⚡ Electric Vehicle Distribution & Trends Dashboard 
 
+<img width="1920" height="986" alt="Screenshot 1" src="https://github.com/user-attachments/assets/fcb21ec1-9f9c-4f9b-889c-5a3df5ba0226" />
+
 ## 📖 Project Overview  
 The world is accelerating toward a greener future, and **Electric Vehicles (EVs)** are at the heart of this revolution.  
 This project leverages Tableau to visualize the **distribution, adoption trends, and performance metrics** of EVs across regions, manufacturers, and models.  
@@ -41,26 +43,24 @@ By transforming raw EV registration data into **insight-rich visuals**, we uncov
 1. **Data Collection** — Gather EV registration dataset with details on model, range, and eligibility.  
 2. **Data Preparation** — Clean and format dataset for Tableau.  
 3. **Dashboard Design** — Create KPIs, charts, and maps to visualize EV metrics.  
-4. **Analysis** — Identify patterns in EV adoption and performance.  
-5. **Storytelling** — Present findings with actionable insights for policy makers, manufacturers, and consumers.  
+4. **Analysis** — Identify patterns in EV adoption and performance.   
 
 ---
 
 ## 🚀 How to Use  
 1. Clone this repository.  
-2. Open the Tableau dashboard file (`EV_Distribution_Analysis.twb`).  
+2. Open the Tableau dashboard file (`Tableau Project File.twb`).  
 3. Use filters (State, Model Year, CAFV Eligibility) to customize analysis.  
 4. Explore model-wise, maker-wise, and region-wise EV trends interactively.  
 
 ---
 
 ## 📬 Contact  
-👤 **Your Name**  
-📧 your.email@example.com  
-🌐 [Your Portfolio Link]  
+👤 **Chaitanya Panicker**  
+📧 chaitanya.panicker98@gmail.com  
+🌐 https://www.linkedin.com/in/chaitanyapanicker  
 
 ---
 
 ## 📜 License  
-This project is licensed under the **MIT License** — free to use, modify, and share with attribution.  
-
+This project is licensed under the **MIT License** — free to use, modify, and share with attribution. 
